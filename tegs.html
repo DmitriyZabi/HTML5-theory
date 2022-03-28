@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Абривиатура -->
+    <abbr title="HyperText Murkup Language">HTML</abbr>
+    <hr />
+    <!-- Список вариантов, которые можно набрать в input -->
+    <input list="list" />
+    <datalist id="list">
+      <option value="Front-end"></option>
+      <option value="Back-end"></option>
+      <option value="Full-stack"></option>
+    </datalist>
+    <hr />
+    <!-- Meter (Визуализация значений в диапазоне) -->
+    <meter value="59" max="100" low="10" high="60"></meter>
+    <hr />
+    <!-- Progress (Визуализация прогресса) -->
+    <progress value="59" max="100"></progress>
+    <hr />
+    <!-- Отображение текста при отключенном js в браузере-->
+    <noscript>Пожалуйста, включите js в браузере</noscript>
+    <hr />
+    <!-- Выделение слова -->
+    <p>Lorem <mark>ipsum</mark> dolor sit amet.</p>
+    <hr />
+    <!-- Поле для рисования -->
+    <canvas
+      id="canvas"
+      width="300"
+      height="200"
+      style="border: 1px solid black"
+    >
+    </canvas>
+    <script type="text/javascript">
+      const el = document.getElementById('canvas')
+      const ctx = el.getContext('2d')
+      ctx.beginPath()
+      ctx.arc(95, 50, 40, 0, 2 * Math.PI)
+      ctx.stroke()
+    </script>
+  </body>
+</html>

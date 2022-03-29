@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Базовая форма -->
+    <form action="***.php" name="simple form" autocomplete="on">
+      <input type="text" />
+      <br />
+      <select name="" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+    <hr />
+    <!-- Fieldset (группировка элементов формы), legend -->
+    <form action="***.php" name="simple form" autocomplete="on">
+      <fieldset>
+        <legend>Legend 1</legend>
+        <label for="username">Username: </label>
+        <input type="text" id="username" />
+      </fieldset>
+      <fieldset>
+        <legend>Legend 2</legend>
+        <label
+          >Select:
+          <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </label>
+        <br />
+        <label for="textarea">Your message: </label>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        <br />
+      </fieldset>
+      <input type="submit" value="submit" />
+    </form>
+    <hr />
+    <!-- Textarea -->
+    <textarea name="" id="" cols="30" rows="5"></textarea>
+    <hr />
+    <textarea name="" id="" cols="30" rows="5" autofocus></textarea>
+    <hr />
+    <textarea name="" id="" cols="30" rows="5" disabled></textarea>
+    <hr />
+    <textarea name="" id="" cols="30" rows="5" readonly></textarea>
+    <hr />
+    <textarea name="" id="" cols="30" rows="5" placeholder="message"></textarea>
+    <hr />
+    <textarea name="" id="" cols="30" rows="5" maxlength="5"></textarea>
+    <hr />
+    <textarea name="" id="" cols="30" rows="5" required></textarea>
+    <hr />
+    <!-- Базовый Select -->
+    <select name="" id="">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <hr />
+    <!-- Select с группами -->
+    <select name="" id="">
+      <optgroup label="1">
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </optgroup>
+      <optgroup label="2">
+        <option value="21">21</option>
+        <option value="22">22</option>
+      </optgroup>
+    </select>
+    <hr />
+    <!-- Select с множественным выбором -->
+    <select name="" id="" multiple>
+      <option value="1">1111</option>
+      <option value="2">2222</option>
+      <option value="3">3333</option>
+    </select>
+    <hr />
+    <!-- Select с опциями для отдельных options -->
+    <select name="" id="">
+      <option value="1">1111</option>
+      <option value="2" selected>2222</option>
+      <option value="3" disabled>3333</option>
+      <option value="4" label="4444"></option>
+    </select>
+  </body>
+</html>

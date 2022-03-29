@@ -44,3 +44,23 @@ _tegs.html_
 ### Глобальная структура HTML-документа (теги)
 
 _global.html_
+
+### Формы
+
+_forms.html_
+
+> 1. Form
+> 2. Textarea
+> 3. Select
+
+### Inputs
+
+_inputs.html_
+
+### Audio, video
+
+_audio_video.html_
+
+### Универсальные аттрибуты
+
+_attributes.html_
